@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5dc1ceae1320b4ba536e443688d855, type: 3}
+  m_Name: LocalizationTableSO
+  m_EditorClassIdentifier: 
+  dataList:
+  - <ID>k__BackingField: schedule_namespring_major1
+    <ko>k__BackingField: "\uBE44\uAD50\uC0AC\uD68C\uD559"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namespring_major2
+    <ko>k__BackingField: "\uD604\uB300\uC0AC\uD68C\uB860"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namespring_major3
+    <ko>k__BackingField: "\uC0DD\uC560\uACFC\uC815\uACFC \uC0AC\uD68C\uD559"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namespring_minor1
+    <ko>k__BackingField: "\uBBF8\uB514\uC5B4 \uBE44\uD3C9"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namespring_minor2
+    <ko>k__BackingField: "\uB514\uC9C0\uD138 \uC601\uC0C1 \uD3B8\uC9D1"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namespring_liberal1
+    <ko>k__BackingField: "\uD0ED\uB304\uC2A4\uC640 \uC138\uACC4"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namecafe
+    <ko>k__BackingField: "\uCE74\uD398 \uC54C\uBC14"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namepacking
+    <ko>k__BackingField: "\uD3EC\uC7A5 \uC54C\uBC14"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_nameconvenience
+    <ko>k__BackingField: "\uD3B8\uC758\uC810 \uC54C\uBC14"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namedog
+    <ko>k__BackingField: "\uAC15\uC544\uC9C0 \uC0B0\uCC45"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namerest
+    <ko>k__BackingField: "\uD734\uC2DD"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namefall_major1
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namefall_major2
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namefall_major3
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namefall_minor1
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namefall_minor2
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namefall_liberal1
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_live1
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_live2
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_live3
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_live4
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_contents1
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_contents2
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: schedule_namewatch_contents3
+    <ko>k__BackingField: "\uC791\uC131 \uC911"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1001
+    <ko>k__BackingField: "\uCFE0\uD0A4"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1002
+    <ko>k__BackingField: "\uC0AC\uACFC"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1003
+    <ko>k__BackingField: "\uC561\uC0C1 \uBC30\uD130\uB9AC"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1004
+    <ko>k__BackingField: "\uC5D0\uB108\uC9C0 \uBC15\uC2A4"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1005
+    <ko>k__BackingField: "\uD3D0\uAE30 \uB3C4\uC2DC\uB77D"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1006
+    <ko>k__BackingField: "\uC758\uC695\uC758 \uBA38\uB9AC\uB048"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1007
+    <ko>k__BackingField: "\uAE30\uC138\uC758 \uBA38\uB9AC\uB048"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1008
+    <ko>k__BackingField: "\uD22C\uC9C0\uC758 \uBA38\uB9AC\uB048"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1009
+    <ko>k__BackingField: "\uC57D"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1010
+    <ko>k__BackingField: "\uD0C4\uC0B0 \uC74C\uB8CC"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1011
+    <ko>k__BackingField: "\uC5D0\uB108\uC9C0 \uC74C\uB8CC"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1012
+    <ko>k__BackingField: "\uCEE4\uD53C"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1013
+    <ko>k__BackingField: "\uC77C\uBC18 \uD3EC\uD1A0 \uCE74\uB4DC"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1014
+    <ko>k__BackingField: "\uD55C\uC815\uD310 \uD3EC\uD1A0 \uCE74\uB4DC"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1015
+    <ko>k__BackingField: "\uD3EC\uC2A4\uD130"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Name_1016
+    <ko>k__BackingField: "\uD669\uAE08 \uB3FC\uC9C0\uD1B5"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1001
+    <ko>k__BackingField: "\uCCB4\uB825 +8"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1002
+    <ko>k__BackingField: "\uCCB4\uB825 +16"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1003
+    <ko>k__BackingField: "\uCCB4\uB825 +32"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1004
+    <ko>k__BackingField: "\uCCB4\uB825 +64"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1005
+    <ko>k__BackingField: "\"\uCCB4\uB825 +100, \uBA58\uD0C8 -1\""
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1006
+    <ko>k__BackingField: "\"\uBA58\uD0C8 +1, \uCCB4\uB825 \uC18C\uBAA8 +20%\""
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1007
+    <ko>k__BackingField: "\"\uBA58\uD0C8 +2, \uCCB4\uB825 \uC18C\uBAA8 +30%\""
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1008
+    <ko>k__BackingField: "\"\uBA58\uD0C8 +3, \uCCB4\uB825 \uC18C\uBAA8 +40%\""
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1009
+    <ko>k__BackingField: "\uBA58\uD0C8 +4"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1010
+    <ko>k__BackingField: "4\uD134 \uB3D9\uC548 \uD559\uC5C5 \uC0C1\uC2B9 +10%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1011
+    <ko>k__BackingField: "3\uD134 \uB3D9\uC548 \uD559\uC5C5 \uC0C1\uC2B9 +20%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1012
+    <ko>k__BackingField: "2\uD134 \uB3D9\uC548 \uD559\uC5C5 \uC0C1\uC2B9 +40%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1013
+    <ko>k__BackingField: "4\uD134 \uB3D9\uC548 \uD32C\uC2EC \uC0C1\uC2B9 +10%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1014
+    <ko>k__BackingField: "3\uD134 \uB3D9\uC548 \uD32C\uC2EC \uC0C1\uC2B9 +20%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1015
+    <ko>k__BackingField: "2\uD134 \uB3D9\uC548 \uD32C\uC2EC \uC0C1\uC2B9 +40%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 
+  - <ID>k__BackingField: Item_Description_1016
+    <ko>k__BackingField: "\uD398\uC774 \uC0C1\uC2B9 +30%"
+    <en>k__BackingField: 
+    <ja>k__BackingField: 
+    <zh>k__BackingField: 

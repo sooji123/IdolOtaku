@@ -1,0 +1,872 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a303f292ec874524c8c58eb984116006, type: 3}
+  m_Name: ScheduleDBSO
+  m_EditorClassIdentifier: 
+  schedules:
+  - scheduleID: spring_major1
+    scheduleType: 1
+    seasonType: 1
+    key: '#spring_major1'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: spring_major2
+    scheduleType: 1
+    seasonType: 1
+    key: '#spring_major2'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: spring_major3
+    scheduleType: 1
+    seasonType: 1
+    key: '#spring_major3'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 4000
+      mental: 1
+      statRewards: []
+    - resultType: 0
+      weight: 2000
+      mental: 2
+      statRewards: []
+    - resultType: 2
+      weight: 3000
+      mental: -1
+      statRewards: []
+    - resultType: 3
+      weight: 1000
+      mental: -2
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: spring_minor1
+    scheduleType: 1
+    seasonType: 1
+    key: '#spring_minor1'
+    maxStatusType: 0
+    maxStatValue: 70
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: spring_minor2
+    scheduleType: 1
+    seasonType: 1
+    key: '#spring_minor2'
+    maxStatusType: 0
+    maxStatValue: 70
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: spring_liberal1
+    scheduleType: 1
+    seasonType: 1
+    key: '#spring_liberal1'
+    maxStatusType: 0
+    maxStatValue: 50
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 4000
+      mental: 1
+      statRewards: []
+    - resultType: 0
+      weight: 2000
+      mental: 2
+      statRewards: []
+    - resultType: 2
+      weight: 3000
+      mental: -1
+      statRewards: []
+    - resultType: 3
+      weight: 1000
+      mental: -2
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: fall_major1
+    scheduleType: 1
+    seasonType: 3
+    key: '#fall_major1'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: fall_major2
+    scheduleType: 1
+    seasonType: 3
+    key: '#fall_major2'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: fall_major3
+    scheduleType: 1
+    seasonType: 3
+    key: '#fall_major3'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: fall_minor1
+    scheduleType: 1
+    seasonType: 3
+    key: '#fall_minor1'
+    maxStatusType: 0
+    maxStatValue: 80
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: fall_minor2
+    scheduleType: 1
+    seasonType: 3
+    key: '#fall_minor2'
+    maxStatusType: 0
+    maxStatValue: 80
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: fall_liberal1
+    scheduleType: 1
+    seasonType: 3
+    key: '#fall_liberal1'
+    maxStatusType: 0
+    maxStatValue: 70
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_live1
+    scheduleType: 3
+    seasonType: 5
+    key: '#watch_live1'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_live1
+    scheduleType: 3
+    seasonType: 5
+    key: '#watch_live1'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_live1
+    scheduleType: 3
+    seasonType: 5
+    key: '#watch_live1'
+    maxStatusType: 0
+    maxStatValue: 100
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_live1
+    scheduleType: 3
+    seasonType: 5
+    key: '#watch_live1'
+    maxStatusType: 0
+    maxStatValue: 70
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_contents1
+    scheduleType: 3
+    seasonType: 6
+    key: '#watch_contents1'
+    maxStatusType: 0
+    maxStatValue: 70
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_contents1
+    scheduleType: 3
+    seasonType: 6
+    key: '#watch_contents1'
+    maxStatusType: 0
+    maxStatValue: 50
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: watch_contents1
+    scheduleType: 3
+    seasonType: 6
+    key: '#watch_contents1'
+    maxStatusType: 0
+    maxStatValue: 50
+    scheduleName: 
+    scheduleResults:
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 0
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  - scheduleID: cafe
+    scheduleType: 2
+    seasonType: 0
+    key: '#cafe'
+    maxStatusType: 0
+    maxStatValue: 0
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels:
+    - partimeID: cafe
+      count: 1
+      payDataList: b0040000e80300002003000058020000
+      health: 1
+      itemRewards:
+      - isAvailable: 0
+        ItemID: 
+        rate: 0
+    - partimeID: cafe
+      count: 2
+      payDataList: 78050000b0040000e803000020030000
+      health: 1
+      itemRewards: []
+    - partimeID: cafe
+      count: 3
+      payDataList: 4006000078050000b0040000e8030000
+      health: 1
+      itemRewards: []
+    parttimeLevel: 0
+  - scheduleID: packing
+    scheduleType: 2
+    seasonType: 0
+    key: '#packing'
+    maxStatusType: 0
+    maxStatValue: 0
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: -3
+      statRewards: []
+    parttimeLevels:
+    - partimeID: packing
+      count: 1
+      payDataList: c4090000d0070000dc050000f4010000
+      health: 2.5
+      itemRewards: []
+    - partimeID: packing
+      count: 2
+      payDataList: b80b0000c4090000d0070000e8030000
+      health: 2.5
+      itemRewards: []
+    - partimeID: packing
+      count: 3
+      payDataList: ac0d0000b80b0000c4090000dc050000
+      health: 2.5
+      itemRewards: []
+    parttimeLevel: 0
+  - scheduleID: convenience
+    scheduleType: 2
+    seasonType: 0
+    key: '#convenience'
+    maxStatusType: 0
+    maxStatValue: 0
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 0
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels:
+    - partimeID: convenience
+      count: 1
+      payDataList: d0070000dc050000b0040000bc020000
+      health: 2.5
+      itemRewards: []
+    - partimeID: convenience
+      count: 2
+      payDataList: c4090000d0070000a4060000b0040000
+      health: 2.5
+      itemRewards: []
+    - partimeID: convenience
+      count: 3
+      payDataList: b80b0000c409000098080000a4060000
+      health: 2.5
+      itemRewards: []
+    parttimeLevel: 0
+  - scheduleID: dog
+    scheduleType: 2
+    seasonType: 0
+    key: '#dog'
+    maxStatusType: 0
+    maxStatValue: 0
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 3
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels:
+    - partimeID: dog
+      count: 1
+      payDataList: e8030000200300005802000090010000
+      health: 1
+      itemRewards: []
+    - partimeID: dog
+      count: 2
+      payDataList: b0040000e80300002003000058020000
+      health: 1
+      itemRewards: []
+    - partimeID: dog
+      count: 3
+      payDataList: 78050000b0040000e803000020030000
+      health: 1
+      itemRewards: []
+    parttimeLevel: 0
+  - scheduleID: rest
+    scheduleType: 4
+    seasonType: 0
+    key: '#rest'
+    maxStatusType: 0
+    maxStatValue: 0
+    scheduleName: 
+    scheduleResults:
+    - resultType: 1
+      weight: 3500
+      mental: 1
+      statRewards: []
+    - resultType: 0
+      weight: 1500
+      mental: 2
+      statRewards: []
+    - resultType: 2
+      weight: 3500
+      mental: 0
+      statRewards: []
+    - resultType: 3
+      weight: 1500
+      mental: 0
+      statRewards: []
+    parttimeLevels: []
+    parttimeLevel: 0
+  scheduleAnimations:
+  - Key: '#convenience'
+    Clips:
+    - {fileID: 21300000, guid: 390680a00bc5f0c4fadbfe24c3ed9f87, type: 3}
+    - {fileID: 21300000, guid: d1781c011f1eaa7478e9e0056b406069, type: 3}
+    - {fileID: 21300000, guid: a3d54c36a91a3ce47b9690e5aff2b3d6, type: 3}
+    - {fileID: 21300000, guid: ea1806bbf38a6894b80b63b17a7fd8b1, type: 3}
+    - {fileID: 21300000, guid: 268de35a08ed64b4ba21dac661caabe8, type: 3}
+    - {fileID: 21300000, guid: 992355ac447380241b0708b696df8e7f, type: 3}
+    - {fileID: 21300000, guid: 431ce6b5a3903ee4cbe7257bf05b9cd7, type: 3}
+    - {fileID: 21300000, guid: 807711774cc424544bc02b251b75cce0, type: 3}
+    - {fileID: 21300000, guid: 717d159e7af79e24abe6c884af8961a0, type: 3}
+    - {fileID: 21300000, guid: f7264dfd862074a4c987c2ce9749ccb0, type: 3}
+    - {fileID: 21300000, guid: 5f62c00cf716ea14c96f32a049c093e3, type: 3}
+    - {fileID: 21300000, guid: b5586074f3d4fb545a842ed6e86429cd, type: 3}
+    - {fileID: 21300000, guid: fb8ed57c6dff23946a2d893fad673898, type: 3}
+    - {fileID: 21300000, guid: 6c8b4b42d220cbd4aa909cdf2be1c763, type: 3}
+    - {fileID: 21300000, guid: db9969d9127c3c644916816c7ff6d30d, type: 3}
+    - {fileID: 21300000, guid: dfec38ca6bec3fe45ab80f7a7341bd59, type: 3}
+    - {fileID: 21300000, guid: b6df431d59ac61d45ad0d82135e85d04, type: 3}
+    - {fileID: 21300000, guid: 663ccfafdf17df2418619420380a4611, type: 3}
+    - {fileID: 21300000, guid: 30eecb892b5694a48b3181f3f1665b8f, type: 3}
+    - {fileID: 21300000, guid: 8fc9139ba3fa12d498b06780622af2ce, type: 3}
+    - {fileID: 21300000, guid: 7393bc99f14e1be4489e3b8e2086ea81, type: 3}
+    - {fileID: 21300000, guid: 2ede35275b927b443aaad1a7523d60f0, type: 3}
+    - {fileID: 21300000, guid: 957691aa2eb5c0b42a8fb62ef6e424db, type: 3}
+    - {fileID: 21300000, guid: 485b9e36ec4b20f40b01ae2da96357df, type: 3}
+    - {fileID: 21300000, guid: 313c3172866138542b9b1f7ffbb1c9f0, type: 3}
+    - {fileID: 21300000, guid: a37fa3cae467279478bd2d7bd5c6b377, type: 3}
+    - {fileID: 21300000, guid: 92435977e0a6a5344ba831664406ce0c, type: 3}
+    - {fileID: 21300000, guid: f842a54df3b77f646b6c101ee2c1813a, type: 3}
+    - {fileID: 21300000, guid: 4939214471241af42be6c93bc945b9fa, type: 3}
+    - {fileID: 21300000, guid: 343709b09cd5e6a4a86f3ee000481784, type: 3}
+    - {fileID: 21300000, guid: ae92bf7f0029a4146bb7c607e749dbf5, type: 3}
+    - {fileID: 21300000, guid: b853f9afe137cc84bad1e18b46bc8a00, type: 3}
+  - Key: '#dog'
+    Clips:
+    - {fileID: 2640032191131131899, guid: b3466915b4a6aa749b02f1269743b986, type: 3}
+    - {fileID: -6451593300391268129, guid: 1e2796a52e242f0459c9197bd67b255b, type: 3}
+    - {fileID: 4623601584252011571, guid: 0918929fcce45074083f7f9dc9823add, type: 3}
+    - {fileID: -6547998550354583048, guid: 3e184be0b6f0367479edfc2186654b7d, type: 3}
+    - {fileID: 1735549576950794727, guid: e087c4fd844d728419e7851a47fc3c72, type: 3}
+    - {fileID: 1212373512682506015, guid: a81a0b5d73eee5c4b9ad13a29a21c9ea, type: 3}
+    - {fileID: 6457390124615448430, guid: c78191deb8ac01b41992b398129db97e, type: 3}
+    - {fileID: -7436373967580542987, guid: 1b7a58fcb01659f47bc69cc20d93523f, type: 3}
+    - {fileID: -7329185294299388076, guid: 06f3506ab4eb66947882b316d48c77a3, type: 3}
+    - {fileID: 3822560283474617340, guid: 7d0765d13e4178b4cbc69e6e7f04af7b, type: 3}
+    - {fileID: -4019088320933149833, guid: 007dce836279cdd4a83a08462c7f5f86, type: 3}
+    - {fileID: -8928212332912511624, guid: 9bd88234c16facd4b8c92f193a58707f, type: 3}
+    - {fileID: -3084311110984581994, guid: a7814198e51190645ba276db25e55d72, type: 3}
+    - {fileID: 3213840639564884841, guid: 4b3515e1045bcfd4590c3aaf27f92dd6, type: 3}
+    - {fileID: 5374594196155363977, guid: 5fb38e4a6a882f84a8494459dedad2af, type: 3}
+    - {fileID: 260890714625691627, guid: aee6ba5ce3886624dbe65b94798eb330, type: 3}
+    - {fileID: -2935890272391685983, guid: bde4c87d5202a30499bbc9fea945714e, type: 3}
+  - Key: '#packing'
+    Clips:
+    - {fileID: 5044567064759101450, guid: 7910bc625b987aa4ba434344e1772b9f, type: 3}
+    - {fileID: 3584655499493750425, guid: 017375d190aa80d4db3633db4fb2474b, type: 3}
+    - {fileID: 6439587592443678431, guid: 022b9c22ae654c248a5dad2da545e1a5, type: 3}
+    - {fileID: -7991669748651990495, guid: e5a91ceb26646f1418543abb025c31e9, type: 3}
+    - {fileID: 5971895544695010640, guid: 8a3b070518f0b944da584c05198bf484, type: 3}
+    - {fileID: 3200206763434906457, guid: bb7466639110d334590a9a35fc42aacc, type: 3}
+    - {fileID: -2049761587811153833, guid: c8bb7d8e1d5292243988a738444f1c36, type: 3}
+    - {fileID: -3845939609572831771, guid: e44bd94aa4db5564e9164d2c2dd40c96, type: 3}
+    - {fileID: -3764476275606022216, guid: 8ecf297680c9cf84f88cd800b769e509, type: 3}
+    - {fileID: -7240596414631107400, guid: 23c3010acea68924babbccd5f747edc7, type: 3}
+    - {fileID: -9193272765152127507, guid: 93161555e471aee499b6a99484e19d23, type: 3}
+    - {fileID: 1810473546641905051, guid: 770d75eee76555746a1582ed2a2d734a, type: 3}
+    - {fileID: 2580228655367383527, guid: dcbb0c763332326469bc13d693cd2ba4, type: 3}
+    - {fileID: 7503786823085661101, guid: cabb254d8c538274c98872eb27f093af, type: 3}
+    - {fileID: 3719375545905748621, guid: d9a4a62cc49515d4e87b25bc4c7ee316, type: 3}
+    - {fileID: 4180661469653471228, guid: 13f099c4c5091744b8bda423d0ecbf95, type: 3}
+    - {fileID: -3506264567464468392, guid: 3ec0f44713bf3bb46898a10ed63437e0, type: 3}
+    - {fileID: 6822202285163962180, guid: 0c4ede6a0166740408892ee7f849a93a, type: 3}
+  - Key: '#spring_liberal1'
+    Clips:
+    - {fileID: -8137390383829077920, guid: a4cb9ebc74d049a448401ff14bb92382, type: 3}
+    - {fileID: -6277595567059324915, guid: baad8d08d3d1bf845a6511658ef57c46, type: 3}
+    - {fileID: -7495231875503957041, guid: e7ebe803b56c60a49affffc86352dc03, type: 3}
+    - {fileID: -8635637318567493301, guid: c976047ad0d1c4847945d92b844aeb3d, type: 3}
+    - {fileID: -8199575170884443764, guid: 7d63b808e82317147be93137afd93738, type: 3}
+    - {fileID: -9176165837819267732, guid: 5eae42438576b8c469c2c6967203d631, type: 3}
+    - {fileID: -7159102019327579547, guid: 67756fcfe106adf4798c691a090e6c89, type: 3}
+    - {fileID: 6144722466177462587, guid: 7ab652996f257374fb888c91cee77ed5, type: 3}
+    - {fileID: 4157097819070581786, guid: 17f0341ed7dbc2b499b9cdc93520783a, type: 3}
+    - {fileID: -8550016811641685132, guid: 68cd2da4c7c3a7047b6c7eb956777b7a, type: 3}
+    - {fileID: -860469991193866523, guid: 7722d653d3761b746ba8e259b1894fbd, type: 3}
+    - {fileID: 1349501811294693991, guid: 205f105f920f3ad4881a8bdca59bbfb0, type: 3}
+    - {fileID: -524337998470975167, guid: 5ab1755da6b571243ba66853baa52869, type: 3}
+    - {fileID: -2794975772870842478, guid: a05bd3ff96f63674ba3f90e6e740c7f7, type: 3}
+    - {fileID: 4208796985289466502, guid: 0b3439c1d2155534a982cbe668549885, type: 3}
+    - {fileID: 3154242957495044925, guid: 9a4c419e53f09b340a08bd0e5fc20c08, type: 3}
+    - {fileID: 8421133978324555977, guid: 1d80cb74a98a22b45a696cf22da47256, type: 3}
+    - {fileID: -4777695223495521773, guid: b0788d18cdd04314a9670f08df0aeee6, type: 3}
+    - {fileID: -3453539599101631808, guid: a81cfb507dadb974b879f5065d91dc28, type: 3}
+    - {fileID: 5011097519970095329, guid: fb3ff68de0f4a764b8df549ebdfb8a4b, type: 3}
+    - {fileID: 3431915549097087257, guid: e9864c442faca2b4288121f955958218, type: 3}
+    - {fileID: 3537648699769128568, guid: c17711601e655bc4c9dc95fdd380e3fa, type: 3}
+    - {fileID: 1513835557606764278, guid: d43e7ee7db533e943b017a462f18a23d, type: 3}
+    - {fileID: -5754924115482286320, guid: 3a44561d572173b4ba8d8b3cc2703ddb, type: 3}
+  - Key: '#spring_major1'
+    Clips:
+    - {fileID: 21300000, guid: 51197ea630756fc45ad586b290ead1e6, type: 3}
+    - {fileID: 21300000, guid: 239363d3517ea594ba1e8f31e15acc74, type: 3}
+    - {fileID: 21300000, guid: c8284e2b414314a4ca08f5d1057e3a09, type: 3}
+    - {fileID: 21300000, guid: f77c92c5adf81d74dafc65ddf629aedb, type: 3}
+    - {fileID: 21300000, guid: 9680776c9fc74194b9dbb0f22a9969b9, type: 3}
+    - {fileID: 21300000, guid: 21b4af2956d669f48bf76f1e805f3b7d, type: 3}
+    - {fileID: 21300000, guid: 97b4e1772fb91e04da0dfcbc1a41c08a, type: 3}
+    - {fileID: 21300000, guid: ea430c731710e734bb2e0a514289414a, type: 3}
+    - {fileID: 21300000, guid: b2e83f824409c444fa94fbe54acd7f60, type: 3}
+    - {fileID: 21300000, guid: ddc7049b877cfcd4bb38d97e52743eb4, type: 3}
+    - {fileID: 21300000, guid: beccc118c2cf8b045855ae36fc31cb2c, type: 3}
+    - {fileID: 21300000, guid: 6439ba3695c544d43b2d29c124f9c96d, type: 3}
+    - {fileID: 21300000, guid: 94bad42db18c17c429bef2703fd6d5c5, type: 3}
+    - {fileID: 21300000, guid: dc44c761fea227f44b6fc21641c886e7, type: 3}
+    - {fileID: 21300000, guid: 44179b378edc9bb469b13f8e88a281a6, type: 3}
+    - {fileID: 21300000, guid: ff2329c58c70b97478bc736b104bcd8d, type: 3}
+    - {fileID: 21300000, guid: 4541c0196319a5f4fbb44bd7f532d1da, type: 3}
+    - {fileID: 21300000, guid: fd12dcaf4311ffd499266c50e78517d5, type: 3}
+    - {fileID: 21300000, guid: a953b56593ac024459518fb44f6bdbe8, type: 3}
+    - {fileID: 21300000, guid: 7192f9286f3e73842a3e7e679f2fa06b, type: 3}
+    - {fileID: 21300000, guid: ca372cdf3b4ba8b4580a7c8e2a7d5cec, type: 3}
+    - {fileID: 21300000, guid: 0d22cf32c4e8e6a4ba835674e66fb478, type: 3}
+    - {fileID: 21300000, guid: 9b1b5e37acdeb544ba77cefe7c2157eb, type: 3}
+    - {fileID: 21300000, guid: 3ccaedf0c25766b4f83268cf0132d734, type: 3}
+    - {fileID: 21300000, guid: 436a495d305aabc4597d3d37f9e17749, type: 3}
+    - {fileID: 21300000, guid: ef68c06a937dba04191aa1e365818df5, type: 3}
+    - {fileID: 21300000, guid: d175a5a8f0eee6a4dafa7ec6bf9cfbbf, type: 3}
+    - {fileID: 21300000, guid: dd7725da4dbcee54087ea7d094cc1c45, type: 3}
+    - {fileID: 21300000, guid: d7e7c51bca79b0b4098584c7c360c777, type: 3}
+    - {fileID: 21300000, guid: acb2299cc319aa24cad086a010ba96c6, type: 3}
+    - {fileID: 21300000, guid: 9c2dc1bda7116b04ab0937633fbead9c, type: 3}
+    - {fileID: 21300000, guid: 4cc149a28b9611c41984129b53205fab, type: 3}
+    - {fileID: 21300000, guid: beb5d7a1fc7f5c9489bef7787b1cc3b8, type: 3}
+    - {fileID: 21300000, guid: 6f8519dd5a3babb45914210683ac6b00, type: 3}
+  - Key: '#spring_minor2'
+    Clips:
+    - {fileID: 21300000, guid: 6d1de35de3f7fcc4d9fe4f161c179771, type: 3}
+    - {fileID: 21300000, guid: cf6dc64aebd64ff499115bf3450fe497, type: 3}
+    - {fileID: 21300000, guid: 53ad5f71162c5174a82e6a3882ddb4f6, type: 3}
+    - {fileID: 21300000, guid: 0d02fe85406eea14ca13d265b8313a93, type: 3}
+    - {fileID: 21300000, guid: b2a0b6b4e4ba28d47bd4b9691915d755, type: 3}
+    - {fileID: 21300000, guid: 21234c1839332b34caeb925b3ab092ab, type: 3}
+    - {fileID: 21300000, guid: cd3556c3c01955b4d96bbe3f6767a0bb, type: 3}
+    - {fileID: 21300000, guid: f8157b161ac5ca141a523e7bc24dfab9, type: 3}
+    - {fileID: 21300000, guid: 93c171709dea57a4db9348ac9dd8f408, type: 3}
+    - {fileID: 21300000, guid: fe5d45826c0ea2c4cb71baacd85f9ee1, type: 3}
+    - {fileID: 21300000, guid: b7e45cfefbbb47445af6a68c32e89e67, type: 3}
+    - {fileID: 21300000, guid: efa8b5f248e1a094ea793f02909d9412, type: 3}
+    - {fileID: 21300000, guid: f3824f763c814f84bb7bba74eaed459b, type: 3}
+    - {fileID: 21300000, guid: 1b36f042e78027843a9cb35c385d8836, type: 3}
+    - {fileID: 21300000, guid: af952f264bee43c428e03f3dc13a2e80, type: 3}
+    - {fileID: 21300000, guid: 36937155afb13d843a176f53d44465dd, type: 3}
+    - {fileID: 21300000, guid: a87d3d432cca9e540a31a3e56c1d0fc0, type: 3}
+    - {fileID: 21300000, guid: 040794ea29b47f94f9d458af09c43899, type: 3}
+    - {fileID: 21300000, guid: e3a8659156d2df341b6dd61d522245c7, type: 3}
+    - {fileID: 21300000, guid: 6fd8608b25f56dd478e55dfa5106befe, type: 3}
+    - {fileID: 21300000, guid: d81a1bfb5f9ed5348b702e50e78e9d59, type: 3}
+    - {fileID: 21300000, guid: 87e866c8277e3a04298e7ad802ca5142, type: 3}
+    - {fileID: 21300000, guid: 3abea59a85c0c814bb59fa86ea3c48bf, type: 3}
+    - {fileID: 21300000, guid: 89a56fe70eaaecb469c2994aa2bb4a60, type: 3}
+    - {fileID: 21300000, guid: f925f19e568ba774dab724d40896cc7b, type: 3}
+    - {fileID: 21300000, guid: b2753eb5d6525bf488fbcef2317cd864, type: 3}
+    - {fileID: 21300000, guid: bc9eeab862b42ef46a7f5a234cc21a50, type: 3}
+    - {fileID: 21300000, guid: dba156effa391ea4d8155c297eb6ab90, type: 3}
+    - {fileID: 21300000, guid: ecd546f05995ff945bc5a777b463b00f, type: 3}
+    - {fileID: 21300000, guid: 7447a7320782d2e4a906540e3ad6a620, type: 3}
+    - {fileID: 21300000, guid: ec6c266549947ec4f801c9be153b2116, type: 3}
+    - {fileID: 21300000, guid: 0e04e90329ca56f4f8550dcfe6fb4cfc, type: 3}

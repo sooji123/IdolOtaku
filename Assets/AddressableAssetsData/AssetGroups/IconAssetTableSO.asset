@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: IconAssetTableSO
+  m_EditorClassIdentifier: 
+  m_GroupName: IconAssetTableSO
+  m_GUID: 3497337c12c7ea0478d6598dd7605fbf
+  m_SerializeEntries:
+  - m_GUID: 90bce5fd512508b4d9a151ded4fc6fbb
+    m_Address: Assets/TableSO/Asset/Icon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - IconAssetTableSO
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 8756ff45a183a1844bd382ebb37d1817, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c36917522e44bdb42a90f30aaf4f3766, type: 2}
+    - {fileID: 11400000, guid: edb035529a3a07640914f9dce7f510db, type: 2}

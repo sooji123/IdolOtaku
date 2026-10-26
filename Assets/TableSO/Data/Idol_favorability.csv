@@ -1,0 +1,5 @@
+idol_id,favorability_level,req_favorability
+string,int,int
+beat_kwj,1,90
+beat_kwj,2,180
+beat_cyw,1,210

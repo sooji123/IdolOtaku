@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f20328b3c1f19347a75f27f4ca9bb7f, type: 3}
+  m_Name: ItemDBSO
+  m_EditorClassIdentifier: 
+  itemDataList:
+  - ItemID: cookie
+    Name: "\uCFE0\uD0A4"
+    SpriteName: '#item_cookie'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: 0.8
+      Duration: 0
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "\uCCB4\uB825 +8"
+  - ItemID: apple
+    Name: "\uC0AC\uACFC"
+    SpriteName: '#item_apple'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: 1.6
+      Duration: 0
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "\uCCB4\uB825 +16"
+  - ItemID: liquidbattery
+    Name: "\uC561\uC0C1 \uBC30\uD130\uB9AC"
+    SpriteName: '#item_liquidbattery'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: 3.2
+      Duration: 0
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "\uCCB4\uB825 +32"
+  - ItemID: energybox
+    Name: "\uC5D0\uB108\uC9C0 \uBC15\uC2A4"
+    SpriteName: '#item_energybox'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: 6.4
+      Duration: 0
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "\uCCB4\uB825 +64"
+  - ItemID: lunchbox
+    Name: "\uD3D0\uAE30 \uB3C4\uC2DC\uB77D"
+    SpriteName: '#item_lunchbox'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: 10
+      Duration: 0
+    Stat2:
+      beAble: 1
+      Stat: mental
+      Value: -0.1
+      Duration: 0
+    Description: "\uCCB4\uB825 +100, \uBA58\uD0C8 -1"
+  - ItemID: moraleband
+    Name: "\uC758\uC695\uC758 \uBA38\uB9AC\uB048"
+    SpriteName: '#item_moraleband'
+    Type: 1
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: -2
+      Duration: 1
+    Stat2:
+      beAble: 1
+      Stat: mental
+      Value: 0.1
+      Duration: 0
+    Description: "\uBA58\uD0C8 +1, \uCCB4\uB825 \uC18C\uBAA8 +20%"
+  - ItemID: spiritband
+    Name: "\uAE30\uC138\uC758 \uBA38\uB9AC\uB048"
+    SpriteName: '#item_spiritband'
+    Type: 1
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: -3
+      Duration: 1
+    Stat2:
+      beAble: 1
+      Stat: mental
+      Value: 0.2
+      Duration: 0
+    Description: "\uBA58\uD0C8 +2, \uCCB4\uB825 \uC18C\uBAA8 +30%"
+  - ItemID: gritband
+    Name: "\uD22C\uC9C0\uC758 \uBA38\uB9AC\uB048"
+    SpriteName: '#item_gritband'
+    Type: 1
+    Stat1:
+      beAble: 1
+      Stat: health
+      Value: -4
+      Duration: 1
+    Stat2:
+      beAble: 1
+      Stat: mental
+      Value: 0.3
+      Duration: 0
+    Description: "\uBA58\uD0C8 +3, \uCCB4\uB825 \uC18C\uBAA8 +40%"
+  - ItemID: medicine
+    Name: "\uC57D"
+    SpriteName: '#item_medicine'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: mental
+      Value: 0.4
+      Duration: 0
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "\uBA58\uD0C8 +4"
+  - ItemID: soda
+    Name: "\uD0C4\uC0B0 \uC74C\uB8CC"
+    SpriteName: '#item_soda'
+    Type: 1
+    Stat1:
+      beAble: 1
+      Stat: study
+      Value: 1
+      Duration: 4
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "4\uD134 \uB3D9\uC548 \uD559\uC5C5 \uC0C1\uC2B9 +10%"
+  - ItemID: energydrink
+    Name: "\uC5D0\uB108\uC9C0 \uC74C\uB8CC"
+    SpriteName: '#item_energydrink'
+    Type: 1
+    Stat1:
+      beAble: 1
+      Stat: study
+      Value: 2
+      Duration: 3
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "3\uD134 \uB3D9\uC548 \uD559\uC5C5 \uC0C1\uC2B9 +20%"
+  - ItemID: coffee
+    Name: "\uCEE4\uD53C"
+    SpriteName: '#item_coffee'
+    Type: 1
+    Stat1:
+      beAble: 1
+      Stat: study
+      Value: 4
+      Duration: 2
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "2\uD134 \uB3D9\uC548 \uD559\uC5C5 \uC0C1\uC2B9 +40%"
+  - ItemID: normalcard
+    Name: "\uC77C\uBC18 \uD3EC\uD1A0 \uCE74\uB4DC"
+    SpriteName: '#item_normalcard'
+    Type: 4
+    Stat1:
+      beAble: 1
+      Stat: fanlove
+      Value: 1
+      Duration: 4
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "4\uD134 \uB3D9\uC548 \uD32C\uC2EC \uC0C1\uC2B9 +10%"
+  - ItemID: specialcard
+    Name: "\uD55C\uC815\uD310 \uD3EC\uD1A0 \uCE74\uB4DC"
+    SpriteName: '#item_specialcard'
+    Type: 4
+    Stat1:
+      beAble: 1
+      Stat: fanlove
+      Value: 2
+      Duration: 3
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "3\uD134 \uB3D9\uC548 \uD32C\uC2EC \uC0C1\uC2B9 +20%"
+  - ItemID: poster
+    Name: "\uD3EC\uC2A4\uD130"
+    SpriteName: '#item_poster'
+    Type: 4
+    Stat1:
+      beAble: 1
+      Stat: fanlove
+      Value: 4
+      Duration: 2
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "2\uD134 \uB3D9\uC548 \uD32C\uC2EC \uC0C1\uC2B9 +40%"
+  - ItemID: piggybank
+    Name: "\uD669\uAE08 \uB3FC\uC9C0\uD1B5"
+    SpriteName: '#item_piggybank'
+    Type: 2
+    Stat1:
+      beAble: 1
+      Stat: money
+      Value: 3
+      Duration: 1
+    Stat2:
+      beAble: 0
+      Stat: 
+      Value: 0
+      Duration: 0
+    Description: "\uD398\uC774 \uC0C1\uC2B9 +30%"

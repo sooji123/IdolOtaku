@@ -1,0 +1,14 @@
+ID,progress
+string,float
+Test_spring_major1_midterm,0.3
+Test_spring_major1_final,0.7
+Test_spring_major2_midterm,0.3
+Test_spring_major2_final,0.7
+Test_spring_major3_midterm,0.3
+Test_spring_major3_final,0.7
+Test_spring_minor1_midterm,0.3
+Test_spring_minor1_final,0.7
+Test_spring_minor2_midterm,0.3
+Test_spring_minor2_final,0.7
+Test_spring_liberal1_midterm,0.3
+Test_spring_liberal1_final,0.7

@@ -1,0 +1,1210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39523ddcfad1176429b467aa662b0456, type: 3}
+  m_Name: DialogueDBSO
+  m_EditorClassIdentifier: 
+  IdolDataList:
+  - <ID>k__BackingField: 1
+    <StringID>k__BackingField: beat_kwj
+    <Name>k__BackingField: '#ui_name_beat_kwj'
+    <AgeSpritePath>k__BackingField: '#ui_age_beat_kwj'
+    <PersonalitySpritePath>k__BackingField: '#ui_personality_beat_kwj'
+    <AbilitySpritePath>k__BackingField: '#ui_ability_beat_kwj'
+  - <ID>k__BackingField: 2
+    <StringID>k__BackingField: beat_cyw
+    <Name>k__BackingField: '#ui_name_beat_cyw'
+    <AgeSpritePath>k__BackingField: '#ui_age_beat_cyw'
+    <PersonalitySpritePath>k__BackingField: '#ui_personality_beat_cyw'
+    <AbilitySpritePath>k__BackingField: '#ui_ability_beat_cyw'
+  dialogueDataList:
+  - ID: 1
+    branches:
+    - ID: 1
+      messageDatas:
+      - branchID: 1
+        messageType: 3
+        chat: 1001_1
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 0
+        choices:
+        - 1001_2_1
+        - 1001_2_2
+      - branchID: 1
+        messageType: 3
+        chat: 1001_3
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 1
+        choices:
+        - 1001_4_1
+        - 1001_4_2
+      - branchID: 1
+        messageType: 3
+        chat: 1001_5
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_6
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 4
+        chat: 
+        imageID: '#msg_beat_kwj_001'
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_8
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_9
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_10
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_11
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 2
+        choices:
+        - 1001_12_1
+        - 1001_12_2
+      - branchID: 1
+        messageType: 3
+        chat: 1001_13
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_14
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_15
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_16
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_17
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_18
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_19
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_20
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_21
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 4
+        chat: 
+        imageID: '#msg_beat_kwj_002'
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_23
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_24
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 1001_25
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+    - ID: 2
+      messageDatas:
+      - branchID: 2
+        messageType: 3
+        chat: 1002_1
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 0
+        choices:
+        - 1002_2_1
+        - 1002_2_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_3
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 1
+        choices:
+        - 1002_4_1
+        - 1002_4_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_5
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 2
+        choices:
+        - 1002_6_1
+        - 1002_6_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_7
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 3
+        choices:
+        - 1002_8_1
+        - 1002_8_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_9
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_10
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_11
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_12
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_13
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 4
+        choices:
+        - 1002_14_1
+        - 1002_14_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_15
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_16
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_17
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 5
+        choices:
+        - 1002_18_1
+        - 1002_18_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_19
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_20
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_21
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 3
+        chat: 1002_22
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 2
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 6
+        choices:
+        - 1002_23_1
+        - 1002_23_2
+      - branchID: 2
+        messageType: 3
+        chat: 1002_24
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+  - ID: 2
+    branches:
+    - ID: 1
+      messageDatas:
+      - branchID: 1
+        messageType: 3
+        chat: 2001_1
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_2
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_3
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 0
+        choices:
+        - 2001_4_1
+        - 2001_4_2
+      - branchID: 1
+        messageType: 3
+        chat: 2001_5
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_6
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_7
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_8
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 1
+        choices:
+        - 2001_9_1
+        - 2001_9_2
+      - branchID: 1
+        messageType: 3
+        chat: 2001_10
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_11
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_12
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_13
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 2
+        choices:
+        - 2001_14_1
+        - 2001_14_2
+      - branchID: 1
+        messageType: 3
+        chat: 2001_15
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_16
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_17
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 4
+        chat: 
+        imageID: '#msg_beat_cyw_001'
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_19
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 3
+        choices:
+        - 2001_20_1
+        - 2001_20_2
+      - branchID: 1
+        messageType: 3
+        chat: 2001_21
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_22
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_23
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_24
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 3
+        chat: 2001_25
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+      - branchID: 1
+        messageType: 2
+        chat: 
+        imageID: 
+        image: {fileID: 0}
+        choiceID: 4
+        choices:
+        - 2001_26_1
+        - 2001_26_2
+      - branchID: 1
+        messageType: 3
+        chat: 2001_27
+        imageID: 
+        image: {fileID: 0}
+        choiceID: -1
+        choices: []
+  characterDialogueDataList:
+  - ID: 1
+    characterData:
+      <ID>k__BackingField: 1
+      <StringID>k__BackingField: beat_kwj
+      <Name>k__BackingField: '#ui_name_beat_kwj'
+      <AgeSpritePath>k__BackingField: '#ui_age_beat_kwj'
+      <PersonalitySpritePath>k__BackingField: '#ui_personality_beat_kwj'
+      <AbilitySpritePath>k__BackingField: '#ui_ability_beat_kwj'
+    dialogueData:
+      ID: 1
+      branches:
+      - ID: 1
+        messageDatas:
+        - branchID: 1
+          messageType: 3
+          chat: 1001_1
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 0
+          choices:
+          - 1001_2_1
+          - 1001_2_2
+        - branchID: 1
+          messageType: 3
+          chat: 1001_3
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 1
+          choices:
+          - 1001_4_1
+          - 1001_4_2
+        - branchID: 1
+          messageType: 3
+          chat: 1001_5
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_6
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 4
+          chat: 
+          imageID: '#msg_beat_kwj_001'
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_8
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_9
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_10
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_11
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 2
+          choices:
+          - 1001_12_1
+          - 1001_12_2
+        - branchID: 1
+          messageType: 3
+          chat: 1001_13
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_14
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_15
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_16
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_17
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_18
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_19
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_20
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_21
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 4
+          chat: 
+          imageID: '#msg_beat_kwj_002'
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_23
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_24
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 1001_25
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+      - ID: 2
+        messageDatas:
+        - branchID: 2
+          messageType: 3
+          chat: 1002_1
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 0
+          choices:
+          - 1002_2_1
+          - 1002_2_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_3
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 1
+          choices:
+          - 1002_4_1
+          - 1002_4_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_5
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 2
+          choices:
+          - 1002_6_1
+          - 1002_6_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_7
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 3
+          choices:
+          - 1002_8_1
+          - 1002_8_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_9
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_10
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_11
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_12
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_13
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 4
+          choices:
+          - 1002_14_1
+          - 1002_14_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_15
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_16
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_17
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 5
+          choices:
+          - 1002_18_1
+          - 1002_18_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_19
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_20
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_21
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 3
+          chat: 1002_22
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 2
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 6
+          choices:
+          - 1002_23_1
+          - 1002_23_2
+        - branchID: 2
+          messageType: 3
+          chat: 1002_24
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+  - ID: 2
+    characterData:
+      <ID>k__BackingField: 2
+      <StringID>k__BackingField: beat_cyw
+      <Name>k__BackingField: '#ui_name_beat_cyw'
+      <AgeSpritePath>k__BackingField: '#ui_age_beat_cyw'
+      <PersonalitySpritePath>k__BackingField: '#ui_personality_beat_cyw'
+      <AbilitySpritePath>k__BackingField: '#ui_ability_beat_cyw'
+    dialogueData:
+      ID: 2
+      branches:
+      - ID: 1
+        messageDatas:
+        - branchID: 1
+          messageType: 3
+          chat: 2001_1
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_2
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_3
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 0
+          choices:
+          - 2001_4_1
+          - 2001_4_2
+        - branchID: 1
+          messageType: 3
+          chat: 2001_5
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_6
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_7
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_8
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 1
+          choices:
+          - 2001_9_1
+          - 2001_9_2
+        - branchID: 1
+          messageType: 3
+          chat: 2001_10
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_11
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_12
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_13
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 2
+          choices:
+          - 2001_14_1
+          - 2001_14_2
+        - branchID: 1
+          messageType: 3
+          chat: 2001_15
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_16
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_17
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 4
+          chat: 
+          imageID: '#msg_beat_cyw_001'
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_19
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 3
+          choices:
+          - 2001_20_1
+          - 2001_20_2
+        - branchID: 1
+          messageType: 3
+          chat: 2001_21
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_22
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_23
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_24
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 3
+          chat: 2001_25
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+        - branchID: 1
+          messageType: 2
+          chat: 
+          imageID: 
+          image: {fileID: 0}
+          choiceID: 4
+          choices:
+          - 2001_26_1
+          - 2001_26_2
+        - branchID: 1
+          messageType: 3
+          chat: 2001_27
+          imageID: 
+          image: {fileID: 0}
+          choiceID: -1
+          choices: []
+  saveDatas:
+  - ID: 1
+    lastBranch: 0
+    maxBranch: -1
+    alarm: 1
+    lastID: 0
+    BranchSaveDatas:
+    - ID: 1
+      ChoiceSaveDatas: ffffffffffffffffffffffff
+    - ID: 2
+      ChoiceSaveDatas: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - ID: 2
+    lastBranch: 0
+    maxBranch: -1
+    alarm: 1
+    lastID: 0
+    BranchSaveDatas:
+    - ID: 1
+      ChoiceSaveDatas: ffffffffffffffffffffffffffffffffffffffff

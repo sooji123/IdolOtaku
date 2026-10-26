@@ -1,0 +1,13 @@
+ID,event_type,year,month,day,week
+string,EventType,int,int,int,string
+spring_start,school,1,3,2,mon
+spring_mid_library,school,1,4,6,mon
+spring_mid,school_test,1,4,20,mon
+spring_final_library,school,1,6,15,mon
+spring_final,school_test,1,6,29,mon
+fall_start,school,1,8,31,mon
+fall_mid_library,school,1,10,5,mon
+fall_mid,school_test,1,10,19,mon
+fall_final_library,school,1,11,30,mon
+fall_final,school_test,1,12,14,mon
+showcase1,idol,1,3,28,sat

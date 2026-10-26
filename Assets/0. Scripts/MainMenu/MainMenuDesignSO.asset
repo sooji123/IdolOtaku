@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f491fa034a03214ba0b053cf85ee40f, type: 3}
+  m_Name: MainMenuDesignSO
+  m_EditorClassIdentifier: 
+  elements:
+  - type: 1
+    bg: {fileID: 21300000, guid: 036c00e9667bead4e87274fe3b9f873f, type: 3}
+    btn: {fileID: 21300000, guid: b5eb955b219793549a6ac5396f75c045, type: 3}
+    gallery: {fileID: 21300000, guid: e39995bf805915649b71c87b0e18de98, type: 3}
+  - type: 2
+    bg: {fileID: 21300000, guid: 3a76c9a0d90f0b043b4a99ef7b64587d, type: 3}
+    btn: {fileID: 21300000, guid: 22c8815192279d8428ec41f904e5b029, type: 3}
+    gallery: {fileID: 21300000, guid: 6975a95f77089984096fed9b94401657, type: 3}

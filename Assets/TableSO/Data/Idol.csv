@@ -1,0 +1,4 @@
+ID,StringID,Name,AgeSpritePath,PersonalitySpritePath,AbilitySpritePath
+int,string,string,string,string,string
+1,beat_kwj,#ui_name_beat_kwj,#ui_age_beat_kwj,#ui_personality_beat_kwj,#ui_ability_beat_kwj
+2,beat_cyw,#ui_name_beat_cyw,#ui_age_beat_cyw,#ui_personality_beat_cyw,#ui_ability_beat_cyw

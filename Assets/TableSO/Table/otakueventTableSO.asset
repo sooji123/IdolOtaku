@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287381c4d805f9f458fd19c47f3452ea, type: 3}
+  m_Name: otakueventTableSO
+  m_EditorClassIdentifier: 
+  dataList: []
+  referencedTables: []
+  otakuevent_resultTable: {fileID: 11400000, guid: c273769f99de83a43b38631c32213529, type: 2}
+  otakuevent_selectTable: {fileID: 11400000, guid: ffb2b0ba7485a2d4c8ffbc354800515c, type: 2}
+  otakuevent_typeTable: {fileID: 11400000, guid: 7deb6a8367acf3d40b58382ebd2e87d6, type: 2}
